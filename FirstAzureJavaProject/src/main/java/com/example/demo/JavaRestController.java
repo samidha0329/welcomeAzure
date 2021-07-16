@@ -18,6 +18,7 @@ public class JavaRestController {
 	
 	@GetMapping("/hello")
 	public String getHelloMessage() {
+		//added
 		return "Hello Azure app";
 	}
 
