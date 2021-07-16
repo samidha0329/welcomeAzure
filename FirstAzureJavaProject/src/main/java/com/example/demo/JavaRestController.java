@@ -11,6 +11,7 @@ public class JavaRestController {
 		return "Welcome to Azure Java app";
 	}
 	
+	//Add comment
 	@GetMapping("/")
 	public String getMessage() {
 		return "Welcome to Azure app";
